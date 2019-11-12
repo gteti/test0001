@@ -17,7 +17,11 @@ class TestNumbers(unittest.TestCase):
         """
         self.assertEqual(sumOfNumbers(1,2), 3)
 
-
+    def test_sum2(self):
+        """
+        this test asserts the sum of the tested values is equals to 4
+        """
+        self.assertEqual(sumOfNumbers(1,2), 4)
 
 
 if __name__ == "__main__":
